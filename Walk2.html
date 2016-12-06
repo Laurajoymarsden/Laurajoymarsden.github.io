@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<title>DurhamWalking</title>
+<link rel='stylesheet' type='text/css' href='styling.css'>
+</head>
+
+
+<body bgcolor="white" text="274093">
+
+</style>
+
+<!-- this is the heading section -->
+
+
+<center> 
+<img src="Logo2.jpg" alt="Logo" style="width:140px;height:140px;">
+</center>
+
+
+<center> <h1> WALK THIS WAY </h1></center>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="page1.html">About us</a>
+    <a class="link" href="https://www.google.co.uk/maps/search/,+Durham,+DH1+3LY,+gb/@54.7799914,-1.589482,14.79z.html">Google Maps</a>
+    <a href="page1.html">Link 3</a>
+  </div>
+</div>
+
+<!-- Java Script for the needed for the drop down menu -->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
