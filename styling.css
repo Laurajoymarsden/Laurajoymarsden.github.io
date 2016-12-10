@@ -41,6 +41,9 @@ h1 {
   font-size: 80px;
 }
 
+
+
+
 h2 {
     color: #00004d;
 }
@@ -90,21 +93,23 @@ p {
     font-family: "Arial Black", gadget, san-serif;
 }
 
+article {
+margin: 0.5cm 4cm 2cm;
+}
+
 
 
 /* Dropdown Button */
 .dropbtn {
     background-color: black;
     color: white;
-    padding: 16px;
-    width: 100px;
-    height: 50px;
+    padding: 14px 40px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     text-align: center;
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 2px;
     border: 2px solid white;
 
 }
