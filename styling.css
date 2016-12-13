@@ -90,7 +90,7 @@ p {
 }
 
 p {
-    font-family: "Arial Black", gadget, san-serif;
+    font-family: "Julius Sans One";
 }
 
 article {
@@ -184,8 +184,13 @@ form {
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
+<<<<<<< Updated upstream
   
 
  }
 
 
+=======
+
+ }
+>>>>>>> Stashed changes
