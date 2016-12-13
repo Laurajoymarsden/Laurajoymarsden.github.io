@@ -73,18 +73,8 @@ article.bio header p.lead {
 }
 
 
-p {
-    text-decoration: underline;
-}
 
-p {
-    color: #00004d;
-}
-
-p {
-    text-align: center;
-}
-
+<<<<<<< HEAD
 p {
     font-size:15px;
 }
@@ -92,6 +82,8 @@ p {
 p {
     font-family: "Julius Sans One";
 }
+=======
+>>>>>>> origin/master
 
 article {
 margin: 0.5cm 4cm 2cm;
